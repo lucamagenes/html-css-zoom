@@ -17,12 +17,12 @@ body {
 /* header */
 
 .site_header {
-    background-color: lightgray;
+    background-color: #dbdbdb;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     justify-content: center;
     position: relative;
-    border-top: 2px solid white;
+    border-top: 2px solid #858e93;
     flex-wrap: wrap;
 }
 
@@ -42,22 +42,26 @@ body {
 }
 
 .red {
-    background-color: red;
+    background-color: #ff5f58;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #ffbd2e;
 }
 
 .green {
-    background-color: green;
+    background-color: #28c941;
 }
 
 .zoom_id {
     justify-content: center;
     align-items: center;
     padding: 0.1rem 0;
-    color: gray;
+    color: #313131;
+}
+
+.zoom_id h3 {
+    font-weight: 400;
 }
 
 .id_name {
@@ -140,8 +144,8 @@ body {
 }
 
 .speaker {
-    padding: 0.5rem;
-    background-color: gray;
+    padding: 0.3rem;
+    background-color: #252525;
     border-radius: 4px;
 }
 
@@ -150,8 +154,8 @@ body {
 }
 
 .expand {
-    padding: 0.5rem;
-    background-color: gray;
+    padding: 0.3rem;
+    background-color: #252525;
     border-radius: 4px;
     margin-left: 0.5rem;
 }
@@ -169,12 +173,12 @@ body {
 }
 
 .left i {
-    color: gray;
+    color: #7f7f7f;
     font-size: 3rem;
 }
 
 .right i {
-    color: lightskyblue;
+    color: #2ebaff;
     font-size: 3rem;
 }
 
@@ -183,3 +187,47 @@ body {
 }
 
 /* footer */
+
+.site_footer {
+    background-color: #222326;
+    color: #dcdcdc;
+    justify-content: space-between;
+}
+
+.site_footer .controlli div, .site_footer .menu div {
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+}
+
+.site_footer i {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.site_footer .up i {
+    font-size: 1rem;
+}
+
+.site_footer .up {
+    align-self: center;
+}
+
+.site_footer .menu div {
+    text-align: center;
+    padding: 0.2rem 1rem;
+}
+
+.menu #share_up {
+    padding-left: 0;
+}
+
+.menu .share i {
+    color: #4bc800;
+}
+
+.out {
+    background-color: #4a4b4c;
+    color: #fe564c;
+    align-self: center;
+    padding: 1.3rem 0.8rem;
+}
