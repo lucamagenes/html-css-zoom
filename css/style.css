@@ -56,6 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.1rem 0;
+    color: gray;
 }
 
 .id_name {
@@ -68,4 +69,50 @@ body {
     height: 20px;
     background-color: gray;
     margin: 0.3rem;
+}
+
+/* main */
+
+.site_main {
+    background-color: black;
+}
+
+.container {
+    padding: 4rem 8rem;
+}
+
+.card {
+    position: relative;
+}
+
+.card_video {
+    width: 400px;
+}
+
+.card_video img {
+    width: 100%;
+}
+
+.user_name {
+    color: white;
+    position: relative;
+    padding: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fa-microphone-alt {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.fa-slash {
+    font-size: 1rem;
+    transform: rotate( 88deg);
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
 }
