@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utility */
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+.site_header {
+    background-color: lightgray;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    justify-content: center;
+    position: relative;
+    border-top: 2px solid white;
+}
+
+.button_header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: flex-start;
+    padding: 0.6rem 1rem;
+}
+
+.btn_round {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.zoom_id {
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem 0;
+}
+
+.id_name {
+    background-color: white;
+    margin-left: 0.5rem;
+}
+
+.hidd_name {
+    width: 170px;
+    height: 20px;
+    background-color: gray;
+    margin: 0.3rem;
+}
