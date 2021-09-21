@@ -23,6 +23,7 @@ body {
     justify-content: center;
     position: relative;
     border-top: 2px solid white;
+    flex-wrap: wrap;
 }
 
 .button_header {
@@ -75,18 +76,28 @@ body {
 
 .site_main {
     background-color: black;
+    position: relative;
 }
 
 .container {
     padding: 4rem 8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
     position: relative;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+}
+
+.speak {
+    background-color: rgba(255, 255, 0, 0.733);
 }
 
 .card_video {
     width: 400px;
+    position: relative;
 }
 
 .card_video img {
@@ -99,8 +110,8 @@ body {
     padding: 0.2rem;
     background-color: rgba(0, 0, 0, 0.63);
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 4px;
+    left: 3px;
 }
 
 .fa-microphone-alt {
@@ -116,3 +127,59 @@ body {
     left: 0;
     bottom: 5px;
 }
+
+.view {
+    color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.view i {
+    font-size: 1.2rem;
+}
+
+.speaker {
+    padding: 0.5rem;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.speaker p {
+    margin-left: 0.5rem;
+}
+
+.expand {
+    padding: 0.5rem;
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+}
+
+.left {
+    position: absolute;
+    left: 3rem;
+    top: 50%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+}
+
+.left i {
+    color: gray;
+    font-size: 3rem;
+}
+
+.right i {
+    color: lightskyblue;
+    font-size: 3rem;
+}
+
+.left p, .right p {
+    color: white;
+}
+
+/* footer */
