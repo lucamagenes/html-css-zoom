@@ -199,6 +199,10 @@ body {
     padding: 0.2rem 0.5rem;
 }
 
+.controlli, .menu {
+    align-items: center;
+}
+
 .site_footer i {
     font-size: 2rem;
     margin-bottom: 0.2rem;
@@ -229,5 +233,5 @@ body {
     background-color: #4a4b4c;
     color: #fe564c;
     align-self: center;
-    padding: 1.3rem 0.8rem;
+    padding: 1.6rem 0.8rem;
 }
